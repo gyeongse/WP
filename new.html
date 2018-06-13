@@ -1,4 +1,114 @@
-<div id="text">
-		<input type="checkbox">텍스트</input>
+<html>
+<head>
+	<title>Record</title>
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+	<style>
+		* { }
+		body {
+ 		  margin: 0; padding: 0;
+			background-image: url("https://user-images.githubusercontent.com/39898180/41355758-37e65a30-6f5d-11e8-8726-f7e3933ae806.png");
+ 		  background-repeat: no-repeat;
+ 		  background-size: 100% 100%;
 
-</div>
+		}
+
+		#home{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355760-3840bb42-6f5d-11e8-9f47-934d750a9b79.png');
+			position: absolute;
+			top: 7%;	left: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+		}
+
+		#back{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355759-381483e2-6f5d-11e8-9431-e0ce5d1fe6ba.png');
+			position: absolute;
+			top: 7%;	right: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% auto;
+		}
+
+		#title{display:table; }
+		#title>p{display:table-cell; text-align:center; vertical-align:middle;}
+
+		#title{
+			width: 50%; height: 10%;
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			top: 5%;	left: 25%;
+			font-size: 2em;
+			text-align: center;
+		}
+
+
+		.scrolltbody {
+			margin: auto;
+			margin-top: 35%;
+			vertical-align: center;
+			text-align: center;
+			font-size: 1.5em;
+	    display: block;
+	    width: 70%;
+			height: 70%;
+	    border-collapse: collapse;
+	    border: 2px solid #000;
+		}
+		.scrolltbody th { border: 1px solid #000; background: silver; }
+		.scrolltbody td { border: 1px solid #000; border-top: 0; }
+		.scrolltbody tbody {
+			margin-top: 1%;
+	    display: block;
+	    height: 89%;
+	    overflow: auto;
+		}
+
+		.scrolltbody th:nth-of-type(1) { width: 11%; }
+		.scrolltbody th:nth-of-type(2) { width: 35%; }
+		.scrolltbody th:nth-of-type(3) { width: 30%; }
+
+		.scrolltbody td:nth-of-type(1) { width: 10%; }
+		.scrolltbody td:nth-of-type(2) { width: 30%; }
+		.scrolltbody td:nth-of-type(3) { width: 30%; }
+
+	</style>
+</header>
+	<a href="https://gyeongse.github.io/WP/main.html">
+		<div id="home">
+		</div>
+	</a>
+
+	<div id="title"><p>과거기록</p></div>
+
+	<a href="https://gyeongse.github.io/WP/menu.html">
+		<div id="back">
+		</div>
+	</a>
+
+
+	<table class='scrolltbody'>
+		<thead>
+			<tr><th>#</th><th>검사날짜</th><th>수치</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>1</td><td>18.01.01</td><td>99</td></tr>
+			<tr><td>2</td><td>18.01.01</td><td>91</td></tr>
+			<tr><td>3</td><td>18.01.01</td><td>85</td></tr>
+			<tr><td>4</td><td>18.01.01</td><td>79</td></tr>
+			<tr><td>5</td><td>18.01.01</td><td>69</td></tr>
+			<tr><td>6</td><td>18.01.01</td><td>57</td></tr>
+			<tr><td>7</td><td>18.01.01</td><td>46</td></tr>
+			<tr><td>8</td><td>18.01.01</td><td>40</td></tr>
+			<tr><td>9</td><td>18.01.01</td><td>31</td></tr>
+			<tr><td>10</td><td>18.01.01</td><td>27</td></tr>
+			<tr><td>11</td><td>18.01.01</td><td>22</td></tr>
+			<tr><td>12</td><td>18.01.01</td><td>16</td></tr>
+			<tr><td>13</td><td>18.01.01</td><td>5</td></tr>
+
+		</tbody>
+	</table>
+
+</body>
+</html>
