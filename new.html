@@ -1,141 +1,123 @@
-
-<!doctype html>
 <html>
 <head>
-	<title>SFREE_test</title>
+	<title>Record</title>
 	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
-	<style type="text/css">
-	* { }
-	body {
-		margin: 0;
-	}
-	.section {
-		float: left;
-		width: 100%;
-	}
-	#header-area {
-		background-color: #6AF;
-	}
-	#header-area h3 {
-		margin: 12px 0px;
-		color: white;
-		display: inline;
-	}
-	#menu-area ul {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 12px 0px;
-		border-bottom: 1px solid #DDD;
-	}
-	#menu-area li {
-		float: left;
-		padding: 0px 8px;
-		list-style: none;
-		font-size: 0.85em;
-		font-weight: bold;
-	}
-	#contents-area
-	h2 {
-		margin: 20px 15px;
-	}
-	b {
-		float: left;
-		width: 92%;
-		margin: 10px 15px;
-		padding: 10px 0px;
-	}
-	p {
-		margin: 20px 15px;
-	}
-	#footer-area {
-		margin-top: 30px;
-		position:absolute;
-		bottom:0;
-		padding: 30px 0px;
-		text-align: center;
-		color: #555;
-		font-size: 0.8em;
-	}
-	.btn{
-		text-decoration: none;
-		font-size: 1.5em;
-		color: black;
-		padding: 10px 20px 10px 20px;
-		margin : 50px;
-		display: inline-block;
-	}
-	.home {
-		float: left;
-		width: 100%;
-		padding: 10px;
-		box-sizing: border-box;
-	}
-	.home .icon {
-		float: left;
-		width: 30px;
-		height: 30px;
-		box-sizing: border-box;
-		padding: 10px;
-		position: relative;
-		margin-right: 12px;
-		overflow: hidden;
-		background-position: 50%;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	a {
-		text-decoration: black;
-		color: black;
-	}
-	</style>
+	<style>
+		* { }
+		body {
+ 		  margin: 0; padding: 0;
+			background-image: url("https://user-images.githubusercontent.com/39898180/41355758-37e65a30-6f5d-11e8-8726-f7e3933ae806.png");
+ 		  background-repeat: no-repeat;
+ 		  background-size: 100% 100%;
+
+		}
+
+		#home{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355760-3840bb42-6f5d-11e8-9f47-934d750a9b79.png');
+			position: absolute;
+			top: 7%;	right: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+		}
+/*
+		#back{
+			width: 10%;	height: 5%;
+			background-image: url('https://user-images.githubusercontent.com/39898180/41355759-381483e2-6f5d-11e8-9431-e0ce5d1fe6ba.png');
+			position: absolute;
+			top: 7%;	right: 5%;
+			background-repeat: no-repeat;
+ 		 	background-size: 100% auto;
+		}
+*/
+		#title{display:table; }
+		#title>p{display:table-cell; text-align:center; vertical-align:middle;}
+
+		#title{
+			width: 50%; height: 10%;
+			border: 2px solid white;
+			border-radius: 10px;
+			position: absolute;
+			top: 5%;	left: 25%;
+			font-size: 2em;
+			text-align: center;
+		}
+
+    #text{
+      width: 80%; height: 80%;
+      background-image: url('');
+      background-size:100% 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 15%;	left: 10%;
+      font-size: 1.5em;
+      padding-top: 5%;
+      text-align: left;
+			overflow: auto;
+    }
+
+    #plus{
+			width: 20%;	height: 5%;
+			/*background-image: url('https://user-images.githubusercontent.com/39898180/41365620-d1d116be-6f74-11e8-8a88-12b528c73e65.png');*/
+			position: absolute;
+			bottom: 10%;	left: 50%; transform:translateX(-50%);
+			background-repeat: no-repeat;
+ 		 	background-size: 100% 100%;
+      border: none;
+      border-radius:10px;
+		}
+
+  </style>
 </head>
 <body>
-	<div id="header-area" class="section">
-		<div class="home">
-			<h3>SFREE test</h3>
-				<a class="icon" style="background-image: url('images/home.png')" href="./main.html"></a>
+  <a href="https://gyeongse.github.io/WP/main.html">
+		<div id="home">
 		</div>
-	</div>
-	<div id="menu-area" class="section">
-		<ul>
-			<a href="./test1.html"><li>Q1</li></a>
-			<a href="./test2.html"><li>Q2</li></a>
-			<a href="./test3.html"><li>Q3</li></a>
-			<a href="./test4.html"><li>Q4</li></a>
-			<a href="./test5.html"><li>Q5</li></a>
-			<a href="./test6.html"><li>Q6</li></a>
-			<a href="./test7.html"><li>Q7</li></a>
-			<a href="./test8.html"><li>Q8</li></a>
-			<a href="./test9.html"><li>Q9</li></a>
-			<a href="./test10.html"><li>Q10</li></a>
-		</ul>
-	</div>
-	<div id="contents-area" class="section">
-			<h2>Q1</h2>
-			<b>
-			지난 한 달 동안, 예상치 못한 일이 생겨서 기분 나빠진 적이 얼마나 있었나요?
-			</b>
+	</a>
 
-			<p>
-				<label><input type="radio" name="e";>전혀 아니다</input></label>
-			</p>
-			<p>
-				<label><input type="radio" name="e";>거의 아니다</input></label>
-			</p>
-			<p>
-				<label><input type="radio" name="e";>가끔</input></label>
-			</p>
-			<p>
-				<label><input type="radio" name="e";>꽤 자주</input></label>
-			</p>
-			<p>
-				<label><input type="radio" name="e";>매우 자주</input></label>
-			</p>
+	<div id="title"><p>목표설정</p></div>
+
+	<a href="https://gyeongse.github.io/WP/menu.html">
+		<div id="back">
 		</div>
-	<div id="footer-area" class="section">
-		<a class= "btn" href =''></a>
-		<a class= "btn" href ='./test2.html'>>></a>
-	</div>
+	</a>
+
+  <div id="text">
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">차 한잔 마시기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">조용한 음악 20분 듣기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">자연풍경 사진보기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">10분간 스트레칭하기</input>
+    </p>
+    <p>
+      <input type="checkbox" style="width:30px;height:30px;">심호흡 5번하기 </input>
+    </p>
+  </div>
+
+
+		<button id="plus" onclick="input()">목표추가
+		</button>
 </body>
-</html>
+<script>
+	var arr = [];
+
+  function input() {
+    var str='추가할 내용을 입력하세요.';
+    var content=prompt('목표 추가', str);
+
+		alert("'"+content+"'가 추가됩니다.");
+		arr.push('content');
+
+		arr+="<p><input type='checkbox' style='width:30px;height:30px;'>";
+		arr+=content;
+		arr+='</input></p>';
+		document.querySelect('text').innerHTML=purpose;
+  }
+
+</script>
