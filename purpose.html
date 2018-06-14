@@ -56,12 +56,14 @@
     }
 
     #plus{
-			width: 10%;	height: 5%;
-			background-image: url('https://user-images.githubusercontent.com/39898180/41365620-d1d116be-6f74-11e8-8a88-12b528c73e65.png');
+			width: 20%;	height: 5%;
+			/*background-image: url('https://user-images.githubusercontent.com/39898180/41365620-d1d116be-6f74-11e8-8a88-12b528c73e65.png');*/
 			position: absolute;
 			bottom: 10%;	left: 50%; transform:translateX(-50%);
 			background-repeat: no-repeat;
  		 	background-size: 100% 100%;
+      border: none;
+      border-radius:10px;
 		}
 
   </style>
@@ -98,7 +100,14 @@
   </div>
 
 
-		<div id="plus">
-		</div>
-
+		<button id="plus" onclick="input()">목표추가
+		</button>
 </body>
+<script>
+  function input() {
+    var str='추가할 내용을 입력하세요.';
+    var content=prompt('목표 추가', str);
+
+    alert(content+'가 추가됩니다.')
+  }
+</script>
