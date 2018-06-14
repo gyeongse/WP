@@ -6,95 +6,75 @@
 		* { }
 		body {
  		  margin: 0; padding: 0;
-			background-image: url("https://user-images.githubusercontent.com/39898180/41355758-37e65a30-6f5d-11e8-8726-f7e3933ae806.png");
+			/*background-image: url("https://user-images.githubusercontent.com/39898180/41355758-37e65a30-6f5d-11e8-8726-f7e3933ae806.png");*/
  		  background-repeat: no-repeat;
  		  background-size: 100% 100%;
-
 		}
-
-		#home{
-			width: 10%;	height: 5%;
-			background-image: url('https://user-images.githubusercontent.com/39898180/41355760-3840bb42-6f5d-11e8-9f47-934d750a9b79.png');
-			position: absolute;
-			top: 7%;	right: 5%;
-			background-repeat: no-repeat;
- 		 	background-size: 100% 100%;
+		#header-area {
+		background-color: #6AF;
 		}
-/*
-		#back{
-			width: 10%;	height: 5%;
-			background-image: url('https://user-images.githubusercontent.com/39898180/41355759-381483e2-6f5d-11e8-9431-e0ce5d1fe6ba.png');
-			position: absolute;
-			top: 7%;	right: 5%;
-			background-repeat: no-repeat;
- 		 	background-size: 100% auto;
+		#header-area h3 {
+		margin: 12px 0px;
+		color: white;
+		display: inline;
 		}
-*/
-
-		#title{display:table; }
-		#title>p{display:table-cell; text-align:center; vertical-align:middle;}
-
-		#title{
-			width: 50%; height: 10%;
-			border: 2px solid white;
-			border-radius: 10px;
-			position: absolute;
-			top: 5%;	left: 25%;
-			font-size: 2em;
-			text-align: center;
-		}
-
-
-		a{color: black; text-decoration: none;}
-
+		a {color: black; text-decoration: none;}
 		.menu>div{display:table; }
 		.menu a{display:table-cell; text-align:center; vertical-align:middle;}
-
 		.box1 {
 			width: 70%; height: 15%;
-			border: 2px solid white;
+			border: 2px solid black;
 			border-radius: 10px;
 			position: absolute;
 			bottom: 60%;	left: 15%;
 			font-size: 2em;
 			text-align: center;
 		}
-
 		.box2 {
 			width: 70%; height: 15%;
-			border: 2px solid white;
+			border: 2px solid black;
 			border-radius: 10px;
 			position: absolute;
 			bottom: 35%;	left: 15%;
 			font-size: 2em;
 			text-align: center;
 		}
-
 		.box3 {
 			width: 70%; height: 15%;
-			border: 2px solid white;
+			border: 2px solid black;
 			border-radius: 10px;
 			position: absolute;
 			bottom: 10%;	left: 15%;
 			font-size: 2em;
 			text-align: center;
 		}
+		.home {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		}
+		.home .icon {
+		float: left;
+		width: 30px;
+		height: 30px;
+		box-sizing: border-box;
+		padding: 10px;   
+		position: relative;
+		margin-right: 12px;
+		overflow: hidden;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
 
 	</style>
 </head>
 <body>
-	<a href="https://gyeongse.github.io/WP/main.html">
-		<div id="home">
-		</div>
-	</a>
-
-	<div id="title"><p>메뉴</p></div>
-<!--
-	<a href="file:///C:/Users/segye/Desktop/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%B9%ED%94%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/main.html">
-		<div id="back">
-		</div>
-	</a>
--->
+	<div id="header-area" class="home">
+		<h3>SFREE Menu</h3>
+		<a class="icon" style="background-image: url('https://user-images.githubusercontent.com/39898180/41355760-3840bb42-6f5d-11e8-9f47-934d750a9b79.png')" href="https://gyeongse.github.io/WP/main.html"></a>
+	</div>      
 	<div class="menu">
 		<div class="box1">
 			<a href="https://gyeongse.github.io/WP/purpose.html">
